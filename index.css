@@ -46,7 +46,8 @@ body {
 }
 
 .li-el:hover{
-    background: #1F2937;
+    background: #A78BFA;
+    /* background: #1F2937; */
     color: white
 }
 #text-container{
@@ -133,6 +134,5 @@ body {
      font-family: 'Inter';
 }
 .pass-button:hover{
-    background: #A78BFA;
-      /* background: rgb(255,250,250,0.12); */
+      background: rgb(255,250,250,0.12);
 }
