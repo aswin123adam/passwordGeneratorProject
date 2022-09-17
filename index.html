@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="nav-bar">
+            <h4 id="title">Password<span id="spanchange">Generator</span></h4>
+                <ul id="nav-list">
+                    <li class="li-el">Login</li> 
+                    <li class="li-el">Sign up</li> 
+                    <li class="li-el">Contact</li>
+                </ul>
+        </div>
+        <div id="main-container">
+            
+            <div id="text-container">
+                <h1 id="tx1">Generate a</h1>
+                <h1 id="tx2">random password</h1>
+                <p id="tx3">Never use an insecure password again.</p>
+                    <div id="passlen">
+                        <p>Enter required password length :</p>
+                        <input id="inputtext" type="text" placeholder="15">
+                    </div>
+                <button id="genpass" onclick="generatePass()">Generate passwords</button>
+            </div>
+            
+            <div id="pass-container">
+                <p class="pass-button" id="pass1">Click Generate</p>
+                <p class="pass-button" id="pass2">Click Generate</p>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
