@@ -133,5 +133,6 @@ body {
      font-family: 'Inter';
 }
 .pass-button:hover{
-      background: rgb(255,250,250,0.12);
+    background: #A78BFA;
+      /* background: rgb(255,250,250,0.12); */
 }
